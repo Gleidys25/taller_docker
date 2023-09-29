@@ -4,7 +4,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
 #create GET
 @app.get("/")
 def read_root():
